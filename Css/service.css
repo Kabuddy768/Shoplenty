@@ -1,0 +1,62 @@
+#heading_one{
+    text-align: center;
+    color: aqua;
+}
+
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.one{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#mydiv{
+    background-color: aquamarine;
+    margin: 50px;
+    padding: 30px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+#test{
+    background-color: rgb(5, 243, 163);
+    margin: 30px;
+    display: flex;
+    color: aliceblue;
+
+}
+
+#test p{
+    margin-left: 20px;
+}
+
+#image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#main{
+    display: flex;
+}
+#advert{
+    background-color: aqua;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+#account{
+    background-color: rgb(227, 129, 10);
+    margin-left: 20px;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+#pay{
+    background-color: rgb(240, 9, 9);
+    margin-left: 20px;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+
+#advert:hover,#account:hover,#pay:hover{
+    background-color: gray;
+}
